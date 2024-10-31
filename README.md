@@ -28,3 +28,13 @@ migrate latest:
 ```
 $ knex migrate:latest
 ```
+
+make new seed:
+```
+$ knex seed:make <seed name>
+```
+
+run all seeds:
+```
+$ knex seed:run
+```
