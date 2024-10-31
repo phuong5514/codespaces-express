@@ -14,20 +14,17 @@ npm start
 
 run docker:
 
+```
 $ docker start db
-
 ```
 
 make new migration: 
 
+```
 $ knex migrate:make <migrate name>
-
-
 ```
 
 migrate latest:
-
+```
 $ knex migrate:latest
-
-
 ```
