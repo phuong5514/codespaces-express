@@ -18,6 +18,11 @@ run docker:
 $ docker start db
 ```
 
+run postgrest api:
+```
+$ ./postgrest postgrest.conf 
+```
+
 make new migration: 
 
 ```
@@ -37,4 +42,9 @@ $ knex seed:make <seed name>
 run all seeds:
 ```
 $ knex seed:run
+```
+
+run postgres to create apis:
+```
+$ ./postgrest postgrest.conf 
 ```
